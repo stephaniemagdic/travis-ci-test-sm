@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          TEST that this is visible for auto redeploy
         </a>
       </header>
     </div>
