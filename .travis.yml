@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure:
-  app: 
+  app: travis-ci-test-sm
   on:
     repo: stephaniemagdic/travis-ci-test-sm
     branch: main
