@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-  - "node"
+- node
 notifications:
   email: false
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: OR+C8rNnHLgPL6ZkQfiC768R3PaKOIZ205OjjU27YW+9bgjH/jmqLJDx/7c9MKQ/LTb6oUKJQ36x0cghMZqLg+8isfYgxyu68bkaAPCZTP98Z1cln7lVHu5hzKrtEMub0vITaXOYRn2mzzWs/QwF7saqsKD1V6LmVyZLWlEVnTKyfSiujQbIgv0uuFu1RQO8yt+aaW2/TlcERpxgKynd9I05rFjLkC0pDouHtYXf3JZnMQCGg6gaAImnc8utfFQoXgybxvldGVtLB+VK88jKKxkx161dwW5C4M/L57Cz3VMDXg4T/6xp4R8bhXDFVBPpXOm94dUr8EFclUoI+6umLwlofsfmxznwBXUXR4dGlmG4HkmbBNELMNlWBHr6BzD2f2Xdb+XyhGWSfbA4YquBjGjyKw9m7ZXjGVqC0z0H5PfxiCUuJFgjsIwsNvaemUy5Wva+mWaZCVrFJSoZyXSOkZy0fbdT1cGN7bPdtRHCMRY2Rfk2CAFoX8RfWNM6KvyT77judW0JevA6N40N41/LQL6f+A5GLVsvLHNjuBnbVW5NbVKCQps3NaChJEuU3VhiklHZP/61rJMFvo/vW8bYgSVMe4ZpWhJ/sAlOzT1fbRGd2z5mtwjcwqnqWNqKXcBxWdZXo9V8IqrkgDtB0dy14ejlm7/QqGgoJ96uksjmYHY=
   app: travis-ci-test-sm
   on:
     repo: stephaniemagdic/travis-ci-test-sm
     branch: main
-env:
+env: 
